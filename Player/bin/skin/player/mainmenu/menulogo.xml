@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <Font name="微软雅黑" size="12" default="true" />
+  <Default name="Menu" value="itemtextpadding=&quot;20,0,47,0&quot; itemhotimage=&quot;file='mainmenu\\menu_hot_mainpage.png' dest='8,4,152,36'&quot; itemshowhtml=&quot;true&quot; itembkcolor=&quot;0xff11191d&quot; itemtextcolor=&quot;0xffaaaeae&quot; itemselectedtextcolor=&quot;0xffaaaeae&quot; itemselectedbkcolor=&quot;0xff11191d&quot;"/>
+  <Menu>
+    <MenuElement text="{i mainmenu\\mainmenu_icon2.png 1 1}{x 6}打开文件" height="40"/>
+	<MenuElement name="item_setting" text="{i mainmenu\\mainmenu_icon3.png 1 1}{x 6}选项设置" height="40"/>
+	<MenuElement name="item_logoin" text="{i mainmenu\\about_1-2.png 1 1}{x 6}关于" height="40"/>
+	<MenuElement height="2">
+		<VerticalLayout>
+			<Label height="2" width="140" bkimage="mainmenu\\menu_separator.png" mouse="false" padding="2,0,0,0"/>
+		</VerticalLayout>
+	</MenuElement>
+	<MenuElement name="item_quit" text="{i mainmenu\\mainmenu_icon4.png 1 1}{x 6}退出" height="40"/>
+  </Menu>
+</Window>

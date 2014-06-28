@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="900,600" sizebox="4,4,4,4" caption="0,0,0,25">
+  <Font name="微软雅黑" size="12" />
+  <VerticalLayout bordercolor="0xff7a7060" bordersize="1" inset="1,1,1,1" bkcolor="0xffffffff">
+	<HorizontalLayout height="25" bkcolor="0xffeeeeee" name="topMenu_hor" >
+		<Button name="menu" width="70" height="25" text="播放器菜单" font="0" hottextcolor="0xfff00000" pushedtextcolor="0xffa00000"/>
+		<Control />
+		<Button name="mini" width="40" height="25" text="最小化" font="0" hottextcolor="0xfff00000" pushedtextcolor="0xffa00000" />
+		<Button name="max" width="40" height="25" text="最大化" font="0" hottextcolor="0xfff00000" pushedtextcolor="0xffa00000" />
+		<Button name="restore" width="40" height="25" text="恢复" font="0" visible="false" hottextcolor="0xfff00000" pushedtextcolor="0xffa00000" />
+		<Button name="close" width="27" height="25" text="关闭" font="0" hottextcolor="0xfff00000" pushedtextcolor="0xffa00000" />
+	</HorizontalLayout>
+  </VerticalLayout>
+</Window>
